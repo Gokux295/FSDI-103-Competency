@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="tableStyle.css">
+  <title>Contact</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container content-header">
+      <div class="bar">
+      <a href="index.html">
+  
+  <img src="img/logo.svg" alt="logo">
+  </a>
+  
+  <nav class="menu">
+    <a href="videos.html">Videos
+    </a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+      </div>
+  <h1 >We Sell Luxury Houses, Condos, and penthouses</h1>
+  </div>
+  </header>
+  <h1 class="fw-300 text-center">Contact</h1>
+  <img src="img/destacada3.jpg" alt="image">
+
+    <main class="container content-centered">
+      <h2 class="fw-300 text-center">Fill the the infomation</h2>
+    
+      <form class="contact" action="#">
+      <fieldset>
+        <legend> Contact infomation</legend>
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" placeholder="type your name">
+        <label for="email">E-mail:</label>
+        <input type="e-mail" id="uemail" placeholder="enter your email" required>
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" placeholder="enter your cell phone number" req
+        >
+        <label for="message">Message:</label>
+        <textarea name="message" id="umessage" cols="30" rows="10"></textarea>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Product Information</legend>
+        <label for="options">Type</label>
+        <select name="options" id="type">
+          <option value="" disabled selected>-------Select an option--------</option> 
+          <option value="sell">Sell</option>
+          <option value="buy">Buy</option>
+        </select>
+        <label for="noProducts">Number</label>
+        <input type="number" min="0" max="100" step="5">
+      </fieldset>
+
+      <fieldset>
+        <legend>Contact Infomation</legend>
+          <div class="form-contact">
+            <label for="phone">Phone:</label>
+            <input type="radio" name="phone" value="telephone" id="telephone">
+            <label for="radio">Email</label>
+            <input type="radio" name="email" value="email" id="email">
+          </div>
+
+          <p>If you want to be contacted by phone, please select a day and time:</p>
+          <label for="date">Date:</label>
+          <input type="date" name="date" id="aDate">
+          <label for="hour">Hour:</label>
+          <input type="time" name="hour" id="hour">
+
+      </fieldset>
+      <input class="button buttons-green" type="submit" value="Send">
+      </form>
+
+
+    </main>
+    <footer>
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </footer>
+
+</body>
+</html>
